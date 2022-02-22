@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stepen", "stepen\stepen.vcxproj", "{A66D5D4F-29E2-4DBC-8463-33733AC89CD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D41131BE-B436-42CF-B519-D00340D55E7A} = {D41131BE-B436-42CF-B519-D00340D55E7A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stepenLib", "stepenLib\stepenLib.vcxproj", "{D41131BE-B436-42CF-B519-D00340D55E7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66D5D4F-29E2-4DBC-8463-33733AC89CD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A66D5D4F-29E2-4DBC-8463-33733AC89CD4}.Debug|Win32.Build.0 = Debug|Win32
+		{A66D5D4F-29E2-4DBC-8463-33733AC89CD4}.Release|Win32.ActiveCfg = Release|Win32
+		{A66D5D4F-29E2-4DBC-8463-33733AC89CD4}.Release|Win32.Build.0 = Release|Win32
+		{D41131BE-B436-42CF-B519-D00340D55E7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D41131BE-B436-42CF-B519-D00340D55E7A}.Debug|Win32.Build.0 = Debug|Win32
+		{D41131BE-B436-42CF-B519-D00340D55E7A}.Release|Win32.ActiveCfg = Release|Win32
+		{D41131BE-B436-42CF-B519-D00340D55E7A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
